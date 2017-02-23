@@ -1,33 +1,27 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<testsuites name='Demo01UITests.xctest' tests='20' failures='0'>
+<testsuites name='Demo01Tests.xctest' tests='16' failures='0'>
   <testsuite name='Demo01Tests.Demo01Tests' tests='1' failures='0'>
-    <testcase classname='Demo01Tests.Demo01Tests' name='testxxxx' time='0.051'/>
+    <testcase classname='Demo01Tests.Demo01Tests' name='testxxxx' time='0.013'/>
   </testsuite>
   <testsuite name='Demo01Tests.FBControllerTest' tests='1' failures='0'>
-    <testcase classname='Demo01Tests.FBControllerTest' name='testCalledOnSuccess' time='0.038'/>
+    <testcase classname='Demo01Tests.FBControllerTest' name='testCalledOnSuccess' time='0.030'/>
   </testsuite>
   <testsuite name='Demo01Tests.FizzBuzzTest' tests='5' failures='0'>
-    <testcase classname='Demo01Tests.FizzBuzzTest' name='test15_should_say_FIZZBUZZ' time='0.003'/>
-    <testcase classname='Demo01Tests.FizzBuzzTest' name='test5_should_say_BUZZ' time='0.002'/>
-    <testcase classname='Demo01Tests.FizzBuzzTest' name='test_should_say_BBTV' time='0.005'/>
-    <testcase classname='Demo01Tests.FizzBuzzTest' name='test_should_say_FIZZ' time='0.001'/>
-    <testcase classname='Demo01Tests.FizzBuzzTest' name='testDefault' time='0.001'/>
+    <testcase classname='Demo01Tests.FizzBuzzTest' name='test15_should_say_FIZZBUZZ' time='0.001'/>
+    <testcase classname='Demo01Tests.FizzBuzzTest' name='test5_should_say_BUZZ' time='0.001'/>
+    <testcase classname='Demo01Tests.FizzBuzzTest' name='test_should_say_BBTV' time='0.001'/>
+    <testcase classname='Demo01Tests.FizzBuzzTest' name='test_should_say_FIZZ' time='0.002'/>
+    <testcase classname='Demo01Tests.FizzBuzzTest' name='testDefault' time='0.002'/>
   </testsuite>
   <testsuite name='Demo01Tests.RangeTest' tests='9' failures='0'>
-    <testcase classname='Demo01Tests.RangeTest' name='testcase01' time='0.014'/>
-    <testcase classname='Demo01Tests.RangeTest' name='testEndInput_Should_bucket' time='0.003'/>
-    <testcase classname='Demo01Tests.RangeTest' name='testEndInput_Should_not_bucket' time='0.014'/>
-    <testcase classname='Demo01Tests.RangeTest' name='testEndstNumber_with_bucket' time='0.008'/>
-    <testcase classname='Demo01Tests.RangeTest' name='testEndstNumber_with_out_bucket' time='0.002'/>
-    <testcase classname='Demo01Tests.RangeTest' name='testFirstInput_Should_bucket' time='0.002'/>
-    <testcase classname='Demo01Tests.RangeTest' name='testFirstInput_Should_not_bucket' time='0.002'/>
+    <testcase classname='Demo01Tests.RangeTest' name='testcase01' time='0.004'/>
+    <testcase classname='Demo01Tests.RangeTest' name='testEndInput_Should_bucket' time='0.001'/>
+    <testcase classname='Demo01Tests.RangeTest' name='testEndInput_Should_not_bucket' time='0.001'/>
+    <testcase classname='Demo01Tests.RangeTest' name='testEndstNumber_with_bucket' time='0.001'/>
+    <testcase classname='Demo01Tests.RangeTest' name='testEndstNumber_with_out_bucket' time='0.001'/>
+    <testcase classname='Demo01Tests.RangeTest' name='testFirstInput_Should_bucket' time='0.001'/>
+    <testcase classname='Demo01Tests.RangeTest' name='testFirstInput_Should_not_bucket' time='0.000'/>
     <testcase classname='Demo01Tests.RangeTest' name='testFirstNumber_with_bucket' time='0.001'/>
     <testcase classname='Demo01Tests.RangeTest' name='testFirstNumber_with_out_bucket' time='0.001'/>
-  </testsuite>
-  <testsuite name='Demo01UITests.Demo01UITests' tests='4' failures='0'>
-    <testcase classname='Demo01UITests.Demo01UITests' name='testBuzz' time='9.022'/>
-    <testcase classname='Demo01UITests.Demo01UITests' name='testDefault' time='12.618'/>
-    <testcase classname='Demo01UITests.Demo01UITests' name='testFizz' time='8.848'/>
-    <testcase classname='Demo01UITests.Demo01UITests' name='testFizzBuzz' time='8.831'/>
   </testsuite>
 </testsuites>
